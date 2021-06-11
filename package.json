@@ -2,7 +2,7 @@
   "name": "jeopardy",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://iancook.dev",
+  "homepage": "https://ianco0k.github.io/PersonalSite/",
   "dependencies": {
     "-": "0.0.1",
     "@testing-library/jest-dom": "^5.13.0",
