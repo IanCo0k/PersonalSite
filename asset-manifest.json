@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/iancook.dev/static/css/main.98166756.chunk.css",
-    "main.js": "/iancook.dev/static/js/main.6677fb33.chunk.js",
-    "main.js.map": "/iancook.dev/static/js/main.6677fb33.chunk.js.map",
-    "runtime-main.js": "/iancook.dev/static/js/runtime-main.7d72b42e.js",
-    "runtime-main.js.map": "/iancook.dev/static/js/runtime-main.7d72b42e.js.map",
-    "static/js/2.cc4804db.chunk.js": "/iancook.dev/static/js/2.cc4804db.chunk.js",
-    "static/js/2.cc4804db.chunk.js.map": "/iancook.dev/static/js/2.cc4804db.chunk.js.map",
-    "static/js/3.2b088c0a.chunk.js": "/iancook.dev/static/js/3.2b088c0a.chunk.js",
-    "static/js/3.2b088c0a.chunk.js.map": "/iancook.dev/static/js/3.2b088c0a.chunk.js.map",
-    "index.html": "/iancook.dev/index.html",
-    "static/css/main.98166756.chunk.css.map": "/iancook.dev/static/css/main.98166756.chunk.css.map",
-    "static/js/2.cc4804db.chunk.js.LICENSE.txt": "/iancook.dev/static/js/2.cc4804db.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.98166756.chunk.css",
+    "main.js": "/static/js/main.6677fb33.chunk.js",
+    "main.js.map": "/static/js/main.6677fb33.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.555b02ff.js",
+    "runtime-main.js.map": "/static/js/runtime-main.555b02ff.js.map",
+    "static/js/2.cc4804db.chunk.js": "/static/js/2.cc4804db.chunk.js",
+    "static/js/2.cc4804db.chunk.js.map": "/static/js/2.cc4804db.chunk.js.map",
+    "static/js/3.2b088c0a.chunk.js": "/static/js/3.2b088c0a.chunk.js",
+    "static/js/3.2b088c0a.chunk.js.map": "/static/js/3.2b088c0a.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.98166756.chunk.css.map": "/static/css/main.98166756.chunk.css.map",
+    "static/js/2.cc4804db.chunk.js.LICENSE.txt": "/static/js/2.cc4804db.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.7d72b42e.js",
+    "static/js/runtime-main.555b02ff.js",
     "static/js/2.cc4804db.chunk.js",
     "static/css/main.98166756.chunk.css",
     "static/js/main.6677fb33.chunk.js"
