@@ -1,18 +1,26 @@
 import './App.css';
+import Homepage from './components/Homepage.js';
+import About from './components/About.js';
+import Contact from './components/Contact.js';
+import Articles from './components/Articles.js';
+import Studies from './components/Studies.js';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from 'react-router-dom';
 
 function App() {
   return (
-  <div className={'background'}>
-    <div className={'container'}>
-      <h1>Hello Jacob Majoor</h1>
-    </div>
-    <div className={'scores_container'}>
-      <div className={'ian'}>
-        <p>May I interest you in a game of 2k?</p>
-        <img src="https://www.insidehook.com/wp-content/uploads/2021/06/lebron-hate-watching-e1623167423144.jpg?fit=1156%2C800" alt="booty"/>
-      </div>
-    </div>
-  </div>
+    <Router basename={process.env.PUBLIC_URL}>
+      <Switch>
+        <Route exact path='/' component={Homepage}/>
+        <Route path='/about' component={About}/>
+        <Route path='/contact' component={Contact}/>
+        <Route path='/articles' component={Articles}/>
+        <Route path='./faith' component={Studies}/>
+      </Switch>
+    </Router>
   );
 }
 
