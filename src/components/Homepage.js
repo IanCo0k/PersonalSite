@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Homepage() {
   return (
-  <body>
+  <>
     <div className={'container'}>
       <h1>Ian Cook</h1>
     </div>
@@ -30,7 +30,7 @@ export default function Homepage() {
         </div>
       </a>
 
-      <a href='./faith'>
+      <a href='/faith'>
         <div className={'card'}>
           <div className={'card_header'}>
             <h1>Faith</h1>
@@ -54,6 +54,6 @@ export default function Homepage() {
 
     </div>
 
-  </body>
+  </>
   );
 }

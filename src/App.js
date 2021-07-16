@@ -12,13 +12,13 @@ import {
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <Switch>
         <Route exact path='/' component={Homepage}/>
         <Route path='/about' component={About}/>
         <Route path='/contact' component={Contact}/>
         <Route path='/articles' component={Articles}/>
-        <Route path='./faith' component={Studies}/>
+        <Route path='/faith' component={Studies}/>
       </Switch>
     </Router>
   );
